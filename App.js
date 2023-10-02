@@ -7,6 +7,7 @@ import screen1_b from './screens/screen1_b';
 import screen1_c from './screens/screen1_c';
 import screen1_d from './screens/screen1_d';
 import screen1_e from './screens/screen1_e';
+import screen2_a from './screens/screen2_a';
 
 const Stack = createNativeStackNavigator();
 
@@ -14,7 +15,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName='firstScreen' screenOptions={{ headerShown: false }}>
-        <Stack.Screen name='firstScreen' component={screen1_e} />
+        <Stack.Screen name='firstScreen' component={screen2_a} />
       </Stack.Navigator>
     </NavigationContainer>
   );
